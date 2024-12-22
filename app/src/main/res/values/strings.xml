@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Playground</string>
+    <string name="btn_load_data_text">Load Data</string>
+</resources>
