@@ -79,4 +79,63 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    // Inner class User to handle the json data in userdata.json
+    private int ID;
+    private String Login;
+    private String Name;
+    private String Email;
+    private String Role;
+
+    // Getters & setters
+    public int getID() {
+        return ID;
+    }
+
+    public void setID(int ID) {
+        this.ID = ID;
+    }
+
+    public String getLogin() {
+        return Login;
+    }
+
+    public void setLogin(String login) {
+        Login = login;
+    }
+
+    public String getName() {
+        return Name;
+    }
+
+    public void setName(String name) {
+        Name = name;
+    }
+
+    public String getEmail() {
+        return Email;
+    }
+
+    public void setEmail(String email) {
+        Email = email;
+    }
+
+    public String getRole() {
+        return Role;
+    }
+
+    public void setRole(String role) {
+        Role = role;
+    }
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "ID=" + ID +
+                ", Login='" + Login + '\'' +
+                ", Name='" + Name + '\'' +
+                ", Email='" + Email + '\'' +
+                ", Role='" + Role + '\'' +
+                '}';
+    }
 }
