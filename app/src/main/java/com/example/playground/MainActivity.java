@@ -29,12 +29,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        // Initialize TextView outside the click listener
-        tvLabelId = findViewById(R.id.tvLabelId);
-        if (tvLabelId == null) {
-            Log.e("==>", "TextView with ID tvLabelId not found!");
-            return;
-        }
 
         // Set Load data button
         Button loadBtn = findViewById(R.id.getDataBtn);
@@ -71,15 +65,6 @@ public class MainActivity extends AppCompatActivity {
                         Log.d("==>", "Parsed items: " + items.toString());
                     } else {
                         Log.e("==>", "Parsed items are empty or null.");
-                    }
-
-                    // Update the first TextView with the ID of the first item in the list
-                    if (items != null && !items.isEmpty()) {
-                        int firstId = items.get(0).getID();
-                        tvLabelId.setText("First ID: " + firstId);
-                    } else {
-                        // If the list is empty, show a default message
-                        tvLabelId.setText("No data found");
                     }
                 } catch (IOException e) {
                     Log.e("==>", "IOException occurred while reading the JSON", e);
