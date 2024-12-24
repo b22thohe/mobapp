@@ -29,7 +29,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/aboutApp"
+        android:id="@+id/aboutAppBtn"
         android:text="@string/btn_about_app_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

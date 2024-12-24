@@ -1,5 +1,6 @@
 package com.example.playground;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -86,6 +87,17 @@ public class MainActivity extends AppCompatActivity {
                 // Add custom divider between items
                 RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(MainActivity.this, R.drawable.divider);
                 recyclerView.addItemDecoration(itemDecoration);
+            }
+        });
+
+        // Button to go to AboutActivity
+        Button aboutBtn = findViewById(R.id.aboutAppBtn);
+        aboutBtn.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                startActivity(intent);
             }
         });
     }
