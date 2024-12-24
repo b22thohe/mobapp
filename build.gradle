@@ -4,5 +4,5 @@ alias(libs.plugins.androidApplication) apply false
 }
 
 dependencies {
-    testImplementation libs.junit
+
 }
