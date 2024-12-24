@@ -83,6 +83,10 @@ public class MainActivity extends AppCompatActivity {
                 RecyclerView recyclerView = findViewById(R.id.main_recycler_view);
                 recyclerView.setLayoutManager(new LinearLayoutManager(MainActivity.this));
                 recyclerView.setAdapter(adapter);
+
+                // Add custom divider between items
+                RecyclerView.ItemDecoration itemDecoration = new DividerItemDecoration(MainActivity.this, R.drawable.divider);
+                recyclerView.addItemDecoration(itemDecoration);
             }
         });
     }
