@@ -2,4 +2,9 @@
     <string name="app_name">Playground</string>
     <string name="btn_load_data_text">Load Data</string>
     <string name="btn_about_app_text">About this app</string>
+    <string name="btn_return_to_main_text">Return to MainActivity</string>
+    <string name="about_text">This app is your goto source for viewing and handling all employees. <br/>
+        Here you can view and edit details about all employees. <br/>
+        Notice any bugs? Please send a note to errors@example.com. <br/>
+        Keep on rockin!</string>
 </resources>
