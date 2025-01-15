@@ -25,7 +25,6 @@ public class AboutActivity extends AppCompatActivity {
             return insets;
         });
 
-        TextView aboutText = findViewById(R.id.tv_about);
         Button returnBtn = findViewById(R.id.return_to_main_btn);
         returnBtn.setOnClickListener(new View.OnClickListener() {
 

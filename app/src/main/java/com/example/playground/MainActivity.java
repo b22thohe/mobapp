@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                     Gson gson = new Gson();
                     items = gson.fromJson(jsonString, new TypeToken<ArrayList<RecyclerViewItem>>() {}.getType());
 
-                    // DEBUGGING - Check if JSON string is being correctly read
+                    // DEBUG: Check if JSON string is being correctly read
                     Log.d("JSON_STRING", jsonString);
 
                     // DEBUG: Check the contents of items after Gson parsing
