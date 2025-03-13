@@ -23,6 +23,11 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
         this.onClickListener = onClickListener;
     }
 
+    public void updateItems(ArrayList<RecyclerViewItem> newItems) {
+        this.items = newItems;
+        notifyDataSetChanged();
+    }
+
     @Override
     @NonNull
     public ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
