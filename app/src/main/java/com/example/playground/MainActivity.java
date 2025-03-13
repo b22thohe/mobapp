@@ -43,6 +43,7 @@ public class MainActivity extends AppCompatActivity {
                     // Load JSON data from the raw resource file
                     InputStream inputStream = getResources().openRawResource(R.raw.userdata);
                     BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+
                     StringBuilder stringBuilder = new StringBuilder();
                     String line;
 
