@@ -1,10 +1,29 @@
-<resources>
+<resources xmlns:tools="http://schemas.android.com/tools">
     <string name="app_name">Playground</string>
     <string name="btn_load_data_text">Load Data</string>
     <string name="btn_about_app_text">About this app</string>
-    <string name="btn_return_to_main_text">Back to employee list</string>
-    <string name="about_text">This app is your goto source for viewing and handling all employees. <br/>
-        Here you can view and edit details about all employees. <br/>
-        Notice any bugs? Please send a note to errors@example.com. <br/>
-        Keep on rockin!</string>
+    <string name="btn_return_to_main_text">Back to staff list</string>
+    <!-- Strings used in fragments in SecondActivity -->
+    <string name="about_text_first">This app is your goto source for keeping track of all editorial staff. <br />
+        Add, remove update details about your staff. <br />
+        Notice any bugs? Please send a note to errors@example.com. <br />
+        Click next to see upcoming features for this app!</string>
+    <string name="about_text_second" tools:ignore="TypographyEllipsis">
+        <![CDATA[
+            <h1>Upcoming features</h1>
+            <ul>
+                <li>Send email to a staff member by clicking email address!</li>
+                <li>Change roles on the go!</li>
+                <li>Create groups. For instance, sort your editorial staff by role!</li>
+                <li>Instant messaging!</li>
+                <p></p>
+                <pre>...more to come!</pre>
+            </ul>
+        ]]>
+    </string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">About this app</string>
+    <string name="second_fragment_label">App Roadmap</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
 </resources>

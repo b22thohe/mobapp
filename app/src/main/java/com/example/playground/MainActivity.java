@@ -53,7 +53,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
                 Log.d("--> Inside MainActivity/onCreate/onClick", "Load data button was clicked!");
 
                 // Use JsonTask with the URL for stored Json data online
-                String jsonUrl = "https://api.npoint.io/db5046379f9b8d624bb9";
+                String jsonUrl = "https://api.npoint.io/ab3d1974355f704b9db6";
                 Log.d("--> Inside MainActivity/onCreate/onClick", "Starting JsonTask with URL: " + jsonUrl);
                 new JsonTask(MainActivity.this).execute(jsonUrl);
             }
@@ -66,7 +66,7 @@ public class MainActivity extends AppCompatActivity implements JsonTask.JsonTask
             @Override
             public void onClick(View view) {
                 // Create new intent to start AboutActivity
-                Intent intent = new Intent(MainActivity.this, AboutActivity.class);
+                Intent intent = new Intent(MainActivity.this, SecondActivity.class);
                 startActivity(intent);
             }
         });
