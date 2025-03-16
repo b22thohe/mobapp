@@ -4,9 +4,12 @@
     <string name="btn_about_app_text">About this app</string>
     <string name="btn_return_to_main_text">Back to staff list</string>
     <!-- Strings used in fragments in SecondActivity -->
-    <string name="about_text_first">This app is your goto source for keeping track of all editorial staff. <br />
-        Add, remove update details about your staff. <br />
-        Notice any bugs? Please send a note to errors@example.com. <br />
+    <string name="about_text_first">This app is your goto source for connection all your editorial staff.
+        When out on the field it is imperative that the contact paths are short and immediate.
+        A breaking story event when you\'re out of the office will no longer lead to delays in covering it, due to slow communication
+        Put together groups for research, field work and strategy. Communicate through voice, video or IM. Update roles on the fly.
+        Organize the work in one simple app allows for full focus on your work!
+        Notice any bugs? Please send a note to errors@example.com.
         Click next to see upcoming features for this app!</string>
     <string name="about_text_second" tools:ignore="TypographyEllipsis">
         <![CDATA[
